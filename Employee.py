@@ -11,4 +11,6 @@ class Employee:
     #Creates a getter and setter methods for the name attribute for encapsulation
     def getName(self):
         return self._name
-   
+    
+    def setName(self, name):
+        self._name = name
