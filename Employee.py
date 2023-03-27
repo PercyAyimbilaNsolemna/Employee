@@ -17,10 +17,16 @@ class Employee:
 
     #Creates a getter and setter methods for the age attribute for encapsulation
     def getAge(self):
-        return._age
+        return self._age
 
     def setAge(self, age):
         self._age = age
+
+    #Creates a getter and setter methods for the salary attribute for encapsulation
+    def getSalary(self):
+        return self._salary
+
+
 
 
 def main():
@@ -29,6 +35,9 @@ def main():
 
     employee.setName("Percy")
     print(f"Name: {employee.getName()}")
+
+    employee.setAge(12)
+    print(f"Age: {employee.getAge()}")
 
 if __name__ == "__main__":
     main()
