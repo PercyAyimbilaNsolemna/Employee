@@ -4,4 +4,8 @@ class Employee:
         self.age = age
         self.salary = salary
 
+    #Creates an __str__ method that allows an object created from this class to be passed to the print function
+    def __str__(self):
+        return "This is an Employee class"
+
         
