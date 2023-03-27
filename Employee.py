@@ -14,3 +14,19 @@ class Employee:
     
     def setName(self, name):
         self._name = name
+
+    #Creates a getter and setter methods for the age attribute for encapsulation
+    def getAge(self):
+        return._age
+
+
+
+def main():
+    employee = Employee()
+    print(employee)
+
+    employee.setName("Percy")
+    print(f"Name: {employee.getName()}")
+
+if __name__ == "__main__":
+    main()
