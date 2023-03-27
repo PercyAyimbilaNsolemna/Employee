@@ -19,6 +19,8 @@ class Employee:
     def getAge(self):
         return._age
 
+    def setAge(self, age):
+        self._age = age
 
 
 def main():
