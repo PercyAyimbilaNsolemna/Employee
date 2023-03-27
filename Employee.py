@@ -8,4 +8,7 @@ class Employee:
     def __str__(self):
         return "This is an Employee class"
 
-        
+    #Creates a getter and setter methods for the name attribute for encapsulation
+    def getName(self):
+        return self._name
+   
