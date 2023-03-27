@@ -26,7 +26,8 @@ class Employee:
     def getSalary(self):
         return self._salary
 
-
+    def setSalary(self, salary):
+        self._salary = salary
 
 
 def main():
@@ -38,6 +39,9 @@ def main():
 
     employee.setAge(12)
     print(f"Age: {employee.getAge()}")
+
+    employee.setSalary(200000)
+    print(f"Salary: ${employee.getSalary()}")
 
 if __name__ == "__main__":
     main()
